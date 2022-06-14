@@ -37,12 +37,12 @@ cd
 cd xmrig/build
 
 msgconfig
-curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/test/main/config.json
+curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/config.json
 
 cd
 
 msgstart
-curl -L -o start.sh https://raw.githubusercontent.com/DarkBlueEdg/test1/main/start.sh
+curl -L -o start.sh https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/start.sh
 
 chmod +x start.sh
 
