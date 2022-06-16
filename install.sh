@@ -23,7 +23,7 @@ msginstall
 pkg install git curl wget build-essential cmake -y
 
 msggit
-git clone https://github.com/xmrig/xmrig.git
+git clone https://github.com/DarkBlueEdg/xmrigocean.git
 
 mkdir xmrig/build
 
@@ -37,13 +37,13 @@ cd
 cd xmrig/build
 
 msgconfig
-curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/config.json
+curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/XMRIG1/main/config.json
 
 cd
 
-msgstart
-curl -L -o start.sh https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/start.sh
+#msgstart
+#curl -L -o start.sh https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/start.sh
 
-chmod +x start.sh
+#chmod +x start.sh
 
 ./start.sh
