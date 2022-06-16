@@ -25,16 +25,16 @@ pkg install git curl wget build-essential cmake -y
 msggit
 git clone https://github.com/DarkBlueEdg/xmrigocean.git
 
-mkdir xmrig/build
+mkdir xmrigocean/build
 
-cd xmrig/build
+cd xmrigocean/build
 
 msgcmake
 cmake .. -DWITH_HWLOC=OFF && make -j8
 
 cd
 
-cd xmrig/build
+cd xmrigocean/build
 
 msgconfig
 curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/XMRIG1/main/config.json
