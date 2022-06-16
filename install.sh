@@ -39,11 +39,11 @@ cd xmrig/build
 msgconfig
 curl -L -o config.json https://raw.githubusercontent.com/DarkBlueEdg/XMRIG1/main/config.json
 
-cd
+#cd
 
 #msgstart
 #curl -L -o start.sh https://raw.githubusercontent.com/DarkBlueEdg/XMRIG/main/start.sh
 
 #chmod +x start.sh
 
-./start.sh
+#./start.sh
